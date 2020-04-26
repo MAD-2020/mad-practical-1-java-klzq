@@ -33,7 +33,7 @@ public class Question5
     
     while (occur == 0 || data.size() < 5)
     {
-      System.out.prinnt("Enter a number: ");
+      System.out.print("Enter a number: ");
       int number = in.nextInt();
       data.add(number)
         for (int a = 0; a < data.size(); a++)
