@@ -13,7 +13,7 @@ public class Question3
     Scanner in = new Scanner(System.in);
     System.out.print("Enter an integer: ");
     int number = in.nextInt();
-    System.out.printIn(num * num);
+    System.out.println(num * num);
       
     
   }
