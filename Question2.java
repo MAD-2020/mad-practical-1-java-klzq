@@ -9,14 +9,14 @@ public class Question2
     double height,weight,bmi;
     System.out.print("Enter your height in metres: ");
     height = in.nextDouble();
-    System.out.printIn("Height is: "+ height);
+    System.out.println("Height is: "+ height);
     System.out.print("Enter your weight in kilograms: ");
     weight = in.nextDouble();
-    System.out.printIn("Weight is: "+ weight);
+    System.out.println("Weight is: "+ weight);
 
     bmi = (weight)/(height*height);
 
-    System.out.printIn("Your BMI is:" + bmi);
+    System.out.println("Your BMI is:" + bmi);
     
   }
 }
